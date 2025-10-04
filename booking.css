@@ -1,0 +1,77 @@
+.icon-spin {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  background-image: url("https://mrwallpaper.com/images/hd/leopard-in-planet-zoo-video-game-jpdjziqtd41tdska.jpg"); /* Replace with your image path */
+  background-size: cover; /* Adjusts the size of the background */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+  background-attachment: fixed; /* Makes the background stay fixed while scrolling */
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.986);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.918);
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.icon-spin {
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fade-in {
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.btn-floating {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  min-height: 100vh;
+}
